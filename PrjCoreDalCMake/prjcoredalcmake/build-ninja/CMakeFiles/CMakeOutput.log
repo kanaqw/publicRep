@@ -1,0 +1,150 @@
+The target system is: Generic -  - tc365
+The host system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/HIGHTEC/toolchains/tricore/v4.9.3.0/bin/tricore-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/CMakeFiles/3.24.0/CompilerIdC/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+tricore-gcc.exe (HighTec Release HDP-v4.9.3.0-c7dbcf2) 4.9.4 build on 2018-10-25
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/tools/ninja-1.11/ninja.exe cmTC_a3937 && [1/2] Building C object CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o
+HTC_GCC_OPTIONS=-save-temps
+-O0
+-g3
+-ffunction-sections
+-mtc162
+-std=c99
+-v
+-o
+CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o
+-c
+C:/tools/cmake-3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=C:\HIGHTEC\toolchains\tricore\v4.9.3.0\bin\tricore-gcc.exe
+Target: tricore
+Configured with: ../../sources/gcc/configure --host=x86_64-w64-mingw32 --build=x86_64-linux-gnu --with-pkgversion=HDP-v4.9.3.0-c7dbcf2 --with-bugurl=support@hightec-rt.com --target=tricore --prefix=/data/distribution/HDP-v4.9.3.0-tricore/tricore-win64/htc/tricore/win64/HDP-v4.9.3.0 --program-prefix=tricore- --with-local-prefix=/data/distribution/HDP-v4.9.3.0-tricore/tricore-win64/htc/tricore/win64/HDP-v4.9.3.0 --disable-shared --with-gnu-as --with-gnu-ld --disable-threads --enable-languages=c,c++ --disable-libssp --enable-nls --with-headers=yes --with-newlib=no --disable-newlib-supplied-syscalls
+Thread model: single
+gcc version 4.9.4 build on 2018-10-25 (HighTec Release HDP-v4.9.3.0-c7dbcf2) 
+COLLECT_GCC_OPTIONS='-save-temps' '-O0' '-g3' '-ffunction-sections' '-mtc162' '-std=c99' '-v' '-o' 'CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o' '-c'
+ c:/hightec/toolchains/tricore/v4.9.3.0/bin/../libexec/gcc/tricore/4.9.4/cc1.exe -E -quiet -v -imultilib tc162 -iprefix c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/ -dD C:/tools/cmake-3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c -mlicense-dir=c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc162 -std=c99 -ffunction-sections -g3 -fworking-directory -O0 -fpch-preprocess -o CMakeCCompilerABI.i
+ignoring nonexistent directory "c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/include-fixed"
+ignoring nonexistent directory "c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/../../../../tricore/sys-include"
+ignoring duplicate directory "c:/hightec/toolchains/tricore/v4.9.3.0/lib/gcc/../../lib/gcc/tricore/4.9.4/include"
+ignoring nonexistent directory "c:/hightec/toolchains/tricore/v4.9.3.0/lib/gcc/../../lib/gcc/tricore/4.9.4/include-fixed"
+ignoring nonexistent directory "c:/hightec/toolchains/tricore/v4.9.3.0/lib/gcc/../../lib/gcc/tricore/4.9.4/../../../../tricore/sys-include"
+ignoring duplicate directory "c:/hightec/toolchains/tricore/v4.9.3.0/lib/gcc/../../lib/gcc/tricore/4.9.4/../../../../tricore/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/include
+ c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/../../../../tricore/include
+End of search list.
+COLLECT_GCC_OPTIONS='-save-temps' '-O0' '-g3' '-ffunction-sections' '-mtc162' '-std=c99' '-v' '-o' 'CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o' '-c'
+ c:/hightec/toolchains/tricore/v4.9.3.0/bin/../libexec/gcc/tricore/4.9.4/cc1.exe -fpreprocessed CMakeCCompilerABI.i -mlicense-dir=c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/../../../../licenses -quiet -dumpbase CMakeCCompilerABI.c -mtc162 -auxbase-strip CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o -g3 -O0 -std=c99 -version -ffunction-sections -o CMakeCCompilerABI.s
+GNU C (HighTec Release HDP-v4.9.3.0-c7dbcf2) version 4.9.4 build on 2018-10-25 (tricore)
+	compiled by GNU C version 4.9.3, GMP version 4.3.1, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+GNU C (HighTec Release HDP-v4.9.3.0-c7dbcf2) version 4.9.4 build on 2018-10-25 (tricore)
+	compiled by GNU C version 4.9.3, GMP version 4.3.1, MPFR version 2.4.2, MPC version 0.8.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b4360b9ea4df2f517175db310e027921
+COLLECT_GCC_OPTIONS='-save-temps' '-O0' '-g3' '-ffunction-sections' '-mtc162' '-std=c99' '-v' '-o' 'CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o' '-c'
+ c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/bin/as.exe -v -mtc162 -o CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o CMakeCCompilerABI.s
+tricore-as (HighTec Release HDP-v4.9.3.0-ae74086) build on 2018-10-25 (GNU Binutils) 2.20
+COMPILER_PATH=c:/hightec/toolchains/tricore/v4.9.3.0/bin/../libexec/gcc/tricore/4.9.4/;c:/hightec/toolchains/tricore/v4.9.3.0/bin/../libexec/gcc/;c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/bin/
+LIBRARY_PATH=c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/tc162/;c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/lib/tc162/;c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/;c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/;c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/lib/
+COLLECT_GCC_OPTIONS='-save-temps' '-O0' '-g3' '-ffunction-sections' '-mtc162' '-std=c99' '-v' '-o' 'CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o' '-c'
+[2/2] Linking C static library libcmTC_a3937.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/include]
+    add: [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/include]
+  end of search list found
+  collapse include dir [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/include] ==> [C:/HIGHTEC/toolchains/tricore/v4.9.3.0/lib/gcc/tricore/4.9.4/include]
+  collapse include dir [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/include] ==> [C:/HIGHTEC/toolchains/tricore/v4.9.3.0/tricore/include]
+  implicit include dirs: [C:/HIGHTEC/toolchains/tricore/v4.9.3.0/lib/gcc/tricore/4.9.4/include;C:/HIGHTEC/toolchains/tricore/v4.9.3.0/tricore/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(tricore-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/tools/ninja-1.11/ninja.exe cmTC_a3937 && [1/2] Building C object CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o]
+  ignore line: [HTC_GCC_OPTIONS=-save-temps]
+  ignore line: [-O0]
+  ignore line: [-g3]
+  ignore line: [-ffunction-sections]
+  ignore line: [-mtc162]
+  ignore line: [-std=c99]
+  ignore line: [-v]
+  ignore line: [-o]
+  ignore line: [CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o]
+  ignore line: [-c]
+  ignore line: [C:/tools/cmake-3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\HIGHTEC\toolchains\tricore\v4.9.3.0\bin\tricore-gcc.exe]
+  ignore line: [Target: tricore]
+  ignore line: [Configured with: ../../sources/gcc/configure --host=x86_64-w64-mingw32 --build=x86_64-linux-gnu --with-pkgversion=HDP-v4.9.3.0-c7dbcf2 --with-bugurl=support@hightec-rt.com --target=tricore --prefix=/data/distribution/HDP-v4.9.3.0-tricore/tricore-win64/htc/tricore/win64/HDP-v4.9.3.0 --program-prefix=tricore- --with-local-prefix=/data/distribution/HDP-v4.9.3.0-tricore/tricore-win64/htc/tricore/win64/HDP-v4.9.3.0 --disable-shared --with-gnu-as --with-gnu-ld --disable-threads --enable-languages=c,c++ --disable-libssp --enable-nls --with-headers=yes --with-newlib=no --disable-newlib-supplied-syscalls]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.4 build on 2018-10-25 (HighTec Release HDP-v4.9.3.0-c7dbcf2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-save-temps' '-O0' '-g3' '-ffunction-sections' '-mtc162' '-std=c99' '-v' '-o' 'CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o' '-c']
+  ignore line: [ c:/hightec/toolchains/tricore/v4.9.3.0/bin/../libexec/gcc/tricore/4.9.4/cc1.exe -E -quiet -v -imultilib tc162 -iprefix c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/ -dD C:/tools/cmake-3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c -mlicense-dir=c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/../../../../licenses -mtc162 -std=c99 -ffunction-sections -g3 -fworking-directory -O0 -fpch-preprocess -o CMakeCCompilerABI.i]
+  ignore line: [ignoring nonexistent directory "c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/include-fixed"]
+  ignore line: [ignoring nonexistent directory "c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/../../../../tricore/sys-include"]
+  ignore line: [ignoring duplicate directory "c:/hightec/toolchains/tricore/v4.9.3.0/lib/gcc/../../lib/gcc/tricore/4.9.4/include"]
+  ignore line: [ignoring nonexistent directory "c:/hightec/toolchains/tricore/v4.9.3.0/lib/gcc/../../lib/gcc/tricore/4.9.4/include-fixed"]
+  ignore line: [ignoring nonexistent directory "c:/hightec/toolchains/tricore/v4.9.3.0/lib/gcc/../../lib/gcc/tricore/4.9.4/../../../../tricore/sys-include"]
+  ignore line: [ignoring duplicate directory "c:/hightec/toolchains/tricore/v4.9.3.0/lib/gcc/../../lib/gcc/tricore/4.9.4/../../../../tricore/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/include]
+  ignore line: [ c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/../../../../tricore/include]
+  ignore line: [End of search list.]
+  ignore line: [COLLECT_GCC_OPTIONS='-save-temps' '-O0' '-g3' '-ffunction-sections' '-mtc162' '-std=c99' '-v' '-o' 'CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o' '-c']
+  ignore line: [ c:/hightec/toolchains/tricore/v4.9.3.0/bin/../libexec/gcc/tricore/4.9.4/cc1.exe -fpreprocessed CMakeCCompilerABI.i -mlicense-dir=c:\hightec\toolchains\tricore\v4.9.3.0\bin\../lib/gcc/tricore/4.9.4/../../../../licenses -quiet -dumpbase CMakeCCompilerABI.c -mtc162 -auxbase-strip CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o -g3 -O0 -std=c99 -version -ffunction-sections -o CMakeCCompilerABI.s]
+  ignore line: [GNU C (HighTec Release HDP-v4.9.3.0-c7dbcf2) version 4.9.4 build on 2018-10-25 (tricore)]
+  ignore line: [	compiled by GNU C version 4.9.3  GMP version 4.3.1  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [GNU C (HighTec Release HDP-v4.9.3.0-c7dbcf2) version 4.9.4 build on 2018-10-25 (tricore)]
+  ignore line: [	compiled by GNU C version 4.9.3  GMP version 4.3.1  MPFR version 2.4.2  MPC version 0.8.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b4360b9ea4df2f517175db310e027921]
+  ignore line: [COLLECT_GCC_OPTIONS='-save-temps' '-O0' '-g3' '-ffunction-sections' '-mtc162' '-std=c99' '-v' '-o' 'CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o' '-c']
+  ignore line: [ c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/bin/as.exe -v -mtc162 -o CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o CMakeCCompilerABI.s]
+  ignore line: [tricore-as (HighTec Release HDP-v4.9.3.0-ae74086) build on 2018-10-25 (GNU Binutils) 2.20]
+  ignore line: [COMPILER_PATH=c:/hightec/toolchains/tricore/v4.9.3.0/bin/../libexec/gcc/tricore/4.9.4/]
+  ignore line: [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../libexec/gcc/]
+  ignore line: [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/bin/]
+  ignore line: [LIBRARY_PATH=c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/tc162/]
+  ignore line: [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/lib/tc162/]
+  ignore line: [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/]
+  ignore line: [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/]
+  ignore line: [c:/hightec/toolchains/tricore/v4.9.3.0/bin/../lib/gcc/tricore/4.9.4/../../../../tricore/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-save-temps' '-O0' '-g3' '-ffunction-sections' '-mtc162' '-std=c99' '-v' '-o' 'CMakeFiles/cmTC_a3937.dir/CMakeCCompilerABI.o' '-c']
+  ignore line: [[2/2] Linking C static library libcmTC_a3937.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

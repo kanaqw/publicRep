@@ -1,0 +1,12 @@
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/CMakeFiles/testProject.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/CMakeFiles/edit_cache.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/CMakeFiles/rebuild_cache.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/core/CMakeFiles/Os.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/core/CMakeFiles/edit_cache.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/core/CMakeFiles/rebuild_cache.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/core/Os/FreeRTOS/CMakeFiles/FreeRTOS.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/core/Os/FreeRTOS/CMakeFiles/edit_cache.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/core/Os/FreeRTOS/CMakeFiles/rebuild_cache.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/dal/tc36x/CMakeFiles/CStart.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/dal/tc36x/CMakeFiles/edit_cache.dir
+D:/PrjCoreDalCMake/prjcoredalcmake/build-ninja/deps/dal/tc36x/CMakeFiles/rebuild_cache.dir

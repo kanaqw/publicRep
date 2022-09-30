@@ -1,0 +1,9 @@
+#ifndef OS_CFG_H
+#define OS_CFG_H
+
+
+#define USE_MULTICORE_MESSAGES
+#define CONTROL_MESSAGE_BUFFER_SIZE 60
+
+
+#endif //OS_CFG_H
